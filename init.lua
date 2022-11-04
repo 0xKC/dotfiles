@@ -95,7 +95,8 @@ vim.cmd [[colorscheme tokyonight]]
 
 -- Set completeopt to have a better completion experience
 vim.o.completeopt = 'menuone,noselect'
-
+-- relative line numbers
+vim.cmd [[set relativenumber]]
 -- [[ Basic Keymaps ]]
 -- Set <space> as the leader key
 -- See `:help mapleader`
